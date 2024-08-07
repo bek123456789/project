@@ -1,0 +1,55 @@
+.skill {
+    padding: 30px 0;
+
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 87px;
+    }
+
+    &__img {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-content: space-between;
+        width: 100%;
+
+        @media (max-width:768px) {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px 10px;
+        }
+    }
+
+    &__h2 {
+        font-family: sans-serif;
+        font-size: 34px;
+        line-height: 42.09px;
+    }
+
+    &__first {
+        font-family: sans-serif;
+        font-size: 18px;
+        line-height: 21.83px;
+        text-align: center;
+
+    }
+
+    &__card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: max-content;
+        margin: 0 auto;
+        align-items: center;
+        gap: 30px;
+
+        @media (max-width:400px) {
+            width: 100%;
+        }
+    }
+
+    &__rate {
+        width: 100%;
+    }
+}

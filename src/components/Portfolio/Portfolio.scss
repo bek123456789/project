@@ -1,0 +1,29 @@
+.portfolio {
+    background-color: #F6F6F6;
+
+    &__first {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    &__firstp {
+        font-family: Gilroy-Bold;
+        font-size: 34px;
+        line-height: 42.09px;
+        text-align: center;
+        padding: 30px 0;
+    }
+
+    &__secondp {
+    
+        padding: 30px 0;
+    }
+
+    &__img {
+        width: 100%;
+    }
+}
